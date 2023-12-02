@@ -1,0 +1,70 @@
+body{
+font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; color: black;
+
+background-image: url("img/peliculas.jpg");
+/* background-color: rgb(178, 142, 251);*/
+}
+
+
+.container{
+    background-color: rgb(180, 118, 238);
+    margin: 100px auto;
+    width: 450px;
+    height: 500px;
+    padding: 20;
+}
+.pregunta_nombre{
+    text-align: center;
+
+}
+
+.pregunta_enunciado{
+    text-align: center;
+}
+.pregunta_contenido{
+    padding: 10px;
+}
+
+.pregunta_alternativas{
+    outline:bisque solid;
+    height: 120px;
+}
+
+.pregunta_alternativas button{
+    display: block;
+            margin: 5Px auto;
+            font-size: 15px;
+            width: 250px;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            background-color:salmon;
+            }
+
+
+   .pregunta_alternativas button:hover{
+    background-color: blue;
+
+    
+   }      
+
+
+   container{
+    background-color:rgb(176, 137, 255);
+    margin: 150px auto;
+    width: 500px;
+    height: 450px;
+    padding: 25spx;
+
+}
+.pregunta_nombre{
+    text-align: center;
+
+
+    
+}
+#barra-progreso{
+    width: 90px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
